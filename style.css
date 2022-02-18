@@ -70,6 +70,30 @@ footer {
   color: #292929;
 }
 
+.tv {
+  padding: 0em 1em;
+  max-width: 1164px;
+  margin: auto;
+}
+
+.container {
+  margin-top: 1.6em;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 57.9%;
+}
+
+.tvframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -113,6 +137,11 @@ img {
 
   #right-column-one {
     margin: auto;
+  }
+
+  .tv {
+    text-align: center;
+    padding: 0em minmax(3em, 5em);
   }
 
   /*.zeedel, .kontakt, .folgen {
