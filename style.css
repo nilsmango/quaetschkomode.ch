@@ -118,7 +118,10 @@ img {
 
 }
 
+.news-content {
+  padding: 0em 1em;
 
+}
 
 @media (min-width: 600px) {
   .main-content {
@@ -128,6 +131,19 @@ img {
     grid-column-gap: 2em;
     justify-content: center;
    align-items: center;
+  }
+  
+  .news-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .news-content img {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 100%;
   }
 
   #left-column-one {
